@@ -5,7 +5,7 @@ public class Rechner {
 			
 		titel("Bruchrechner");
 			
-			
+		verabschiedung();	
 	}
 
 
@@ -26,5 +26,8 @@ public class Rechner {
 		IO.println("\n");
 	}
 
+	static void verabschiedung() {
 		
+		IO.println("\n\n\t Have A Nice Day!");
+	}		
 }
