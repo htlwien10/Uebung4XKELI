@@ -32,4 +32,29 @@ public class Bruch {
 			return a;
 		}
 	}
+	
+	void addiere(Bruch b) {
+		zaehler = zaehler*b.nenner + b.zaehler*nenner;
+		nenner = nenner*b.nenner;
+		kuerze();
+	}
+	
+	
+	void eingabe() {
+		
+		zaehler=IO.readInt("Zaehler: ");
+		
+		do {
+			nenner=IO.readInt("Nenner : ");
+			if (nenner == 0)
+				IO.println("Der Nenner darf nicht Null werden!\n");
+		} while (nenner == 0);
+	}
+	
+	
+	void ausgabe() {
+		IO.println(zaehler + "/"+nenner);
+	}
+	
+	// ausgabe, multipliziere, subtrahiere, dividiere, dezzahl;	
 }
