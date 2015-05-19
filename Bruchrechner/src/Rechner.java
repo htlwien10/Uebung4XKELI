@@ -4,7 +4,9 @@ public class Rechner {
 	public static void main(String[] args) {
 			
 		titel("Bruchrechner");
-			
+		
+		Bruch b1 = new Bruch();
+		
 		verabschiedung();	
 	}
 
