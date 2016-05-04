@@ -6,6 +6,7 @@ public class Rechner {
 		titel("Bruchrechner");
 		
 		Bruch b1 = new Bruch();
+		Bruch b2 = new Bruch();
 		
 		IO.println("1. Bruch");
 		b1.eingabe();
